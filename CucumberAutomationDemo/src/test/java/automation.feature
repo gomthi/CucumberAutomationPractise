@@ -10,6 +10,6 @@ Feature: to test automation practise page
 
  Examples:
     |username              |firstname  |lastname  |password |date |month|year |address   |city    |state   |zipcode|country       |mobile     |
-    |egomathi342@gmail.com   |gomathi    |elangovan |Meenu@96 |5    |7    |1996 |AnnaNagar |Chennai |Indiana |96162  |United States |9876543210 |
+    |egomathi321@gmail.com   |gomathi    |elangovan |Meenu@96 |5    |7    |1996 |AnnaNagar |Chennai |Indiana |96162  |United States |9876543210 |
     
   
