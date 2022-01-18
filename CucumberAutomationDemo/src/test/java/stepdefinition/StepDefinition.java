@@ -46,7 +46,7 @@ public class StepDefinition {
 	@When("user enter {string} gender, {string}, {string}, {string}, {string}, {string}, {string}, {string}, {string}, {string}, {string}, {string}, {string} and click on create button")
 	public void user_enter_gender_and_click_on_create_button(String username, String firstname, String lastname, String password, String date, String month, String year, String address, String city, String state, String zipcode, String country, String mobile) throws AWTException, IOException {
 		PageFactory.initElements(driver, CreateAccount.class);
-		CreateAccount.txtEmail.sendKeys(username);
+		CreateAccount.txtEmail.sendKeys("egomathi678@gmail.com");
 		CreateAccount.btnCreateAccount.click();
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 		CreateAccount.optionGender.click();
